@@ -1,0 +1,64 @@
+name: Bug report
+description: Something in Shisa doesn't work as expected.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. Please leave out file names, paths, wallet addresses, tokens and anything else private. Security issues go to Security → Report a vulnerability, not here.
+  - type: input
+    id: shisa-version
+    attributes:
+      label: Shisa version
+      placeholder: "1.0.1"
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      placeholder: "26.6.2"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Downloads
+        - Clipboard or paste
+        - Checkup
+        - Software updates
+        - Vault or AutoFill
+        - Setup or permissions
+        - Menu bar or settings
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you saw, and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1.
+        2.
+        3.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Screenshots or other details. Check them for private information first.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy
+      options:
+        - label: I removed file names, paths, addresses, tokens and other private details.
+          required: true

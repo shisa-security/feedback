@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security issue privately
+    url: https://github.com/shisa-security/feedback/security/advisories/new
+    about: Please don't post security issues in public. You can also email huybuidac@gmail.com.
+  - name: Download Shisa
+    url: https://shisa.dev
+    about: The latest version and release notes.

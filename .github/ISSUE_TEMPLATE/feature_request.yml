@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest something Shisa could do or do better.
+labels: ["feature"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The situation or risk you have in mind, in your own words.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+      description: How you'd like Shisa to handle it.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Other apps that do this well, links or screenshots.
