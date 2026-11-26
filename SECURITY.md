@@ -3,7 +3,7 @@
 Please report security issues in Shisa privately, never in a public issue:
 
 - [Security → Report a vulnerability](https://github.com/shisa-security/feedback/security/advisories/new) in this repository, or
-- email huybuidac@gmail.com.
+- email security@shisa.dev.
 
 Include the Shisa and macOS versions, what you found, and the steps to
 reproduce it. Leave out personal data that isn't needed to understand the
